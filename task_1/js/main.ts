@@ -14,3 +14,7 @@ const teacher3: Teacher = {
   location: 'San Juan',
   contract: false,
 };
+
+interface Directors extends Teacher {
+  numberOfReports: number;
+}
