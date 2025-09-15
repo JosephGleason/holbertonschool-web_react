@@ -18,3 +18,11 @@ const teacher3: Teacher = {
 interface Directors extends Teacher {
   numberOfReports: number;
 }
+
+const director1: Directors = {
+  firstName: 'Carmen',
+  lastName: 'Rivera',
+  location: 'Bayamón', 
+  fullTimeEmployee: true,
+  numberOfReports: 17,
+};
